@@ -119,6 +119,7 @@ int main(int argc, char *argv[])
         if (!fork()) {
             close(sfd);
             close(new_fd);
+            free(buff);
             exit(EXIT_SUCCESS);
         }
         close(new_fd);
