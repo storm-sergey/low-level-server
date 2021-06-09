@@ -6,7 +6,7 @@ Familiarity with the low-level WEB already allows me to better understand the re
 ### To use
 on the server:
 ```
-./low-level-server localhost 80
+./this_server_app localhost 80
 ```
 
 on the client:
