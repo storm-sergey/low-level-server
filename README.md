@@ -16,3 +16,8 @@ telnet localhost 80
 ```
 "Message"
 ```
+
+### To compile win-remote-reboot.c
+```
+gcc win-remote-reboot.c -o remote_reboot.exe -lwsock32
+```
